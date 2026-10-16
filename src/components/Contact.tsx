@@ -27,7 +27,8 @@ export default function Contact() {
                         <div>
                             <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[var(--secondary)]">Horário de funcionamento</h3>
                             <dl className="space-y-3 text-white/60">
-                                <div className="grid grid-cols-[1fr_auto] gap-6"><dt>Terça a Sábado</dt><dd className="text-white/85">09:00 - 18:00</dd></div>
+                                <div className="grid grid-cols-[1fr_auto] gap-6"><dt>Segunda</dt><dd className="text-white/85">Fechado</dd></div>
+                                <div className="grid grid-cols-[1fr_auto] gap-6"><dt>Terça a Sábado</dt><dd className="text-white/85">08:00 - 20:00</dd></div>
                                 <div className="grid grid-cols-[1fr_auto] gap-6"><dt>Domingo</dt><dd className="text-white/85">Fechado</dd></div>
                             </dl>
                         </div>
@@ -35,7 +36,7 @@ export default function Contact() {
                         <div>
                             <h3 className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[var(--secondary)]">Redes sociais</h3>
                             <div className="flex flex-wrap gap-x-7 gap-y-3 text-white/75">
-                                <a className="transition-colors hover:text-[var(--secondary)]" href="#instagram">Instagram&nbsp; @giulianoqueiroz</a>
+                                <a className="transition-colors hover:text-[var(--secondary)]" href="#instagram">Instagram&nbsp; @giulianocabeleireiro</a>
                                 <a className="transition-colors hover:text-[var(--secondary)]" href="#facebook">Facebook&nbsp; /giulianoqueiroz</a>
                             </div>
                         </div>
@@ -65,23 +66,6 @@ export default function Contact() {
                             className="mt-4 w-full border-0 border-b border-white/25 bg-transparent px-0 pb-4 text-base text-white outline-none transition-colors placeholder:text-white/40 focus:border-[var(--secondary)]"
                             required
                         />
-                    </div>
-
-                    <div>
-                        <label htmlFor="interest" className="text-xs uppercase tracking-[0.3em] text-[var(--secondary)]">Serviço de interesse</label>
-                        <select
-                            id="interest"
-                            name="interest"
-                            defaultValue=""
-                            className="mt-4 w-full border-0 border-b border-white/25 bg-transparent px-0 pb-4 text-base text-white outline-none transition-colors focus:border-[var(--secondary)]"
-                            required
-                        >
-                            <option value="" disabled className="bg-[var(--primary)]">Selecione um serviço</option>
-                            <option value="corte" className="bg-[var(--primary)]">Corte e barba</option>
-                            <option value="sobrancelhas" className="bg-[var(--primary)]">Sobrancelhas</option>
-                            <option value="lavatorio" className="bg-[var(--primary)]">Lavatório</option>
-                            <option value="tingimentos" className="bg-[var(--primary)]">Tingimentos</option>
-                        </select>
                     </div>
 
                     <div>

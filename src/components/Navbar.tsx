@@ -24,7 +24,7 @@ export default function Navbar() {
       }}
     >
       <div className="mx-auto grid w-full max-w-6xl grid-cols-[1fr_auto_1fr] items-center gap-8 px-4 py-4 text-sm">
-        <img src="/images/logo.png" alt="Barbershop Logo" className="h-12 w-12 shrink-0" />
+        <img src="/images/logo.png" alt="Barbershop Logo" className="h-13 w-13 shrink-0" />
         <div className="flex flex-row items-center justify-center gap-8 text-[12px] font-mono tracking-[0.2em] text-white">
             <a className="relative py-1 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-[var(--secondary)] after:content-[''] after:transition-transform after:duration-300 hover:after:origin-left hover:after:scale-x-100" href="/">INICIO</a>
             <a className="relative py-1 after:absolute after:bottom-0 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-[var(--secondary)] after:content-[''] after:transition-transform after:duration-300 hover:after:origin-left hover:after:scale-x-100" href="/about">NOSSA MARCA</a>

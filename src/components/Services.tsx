@@ -1,7 +1,7 @@
 export default function Services() {
     return (
         <section className="bg-[#111111] px-6 py-16 text-white md:px-12 lg:px-16" aria-labelledby="services-title">
-            <div className="mt-40 mb-40 mx-auto max-w-7xl">
+            <div className="mt-10 mb-20 mx-auto max-w-7xl">
                 <h2 id="services-title" className="mb-12 text-5xl font-bold uppercase tracking-tight md:text-7xl">
                     Nossos <span className="italic text-[var(--secondary)]">serviços</span>
                 </h2>
