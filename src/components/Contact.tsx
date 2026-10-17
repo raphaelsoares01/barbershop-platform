@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="bg-[var(--primary)] px-6 py-20 text-white md:px-12 lg:px-16 lg:py-28" aria-labelledby="contact-title">
+        <section id="contact" className="bg-[var(--primary)] px-6 py-20 text-white md:px-12 lg:px-16 lg:py-28" aria-labelledby="contact-title">
             <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-2 lg:gap-24">
                 <div>
                     <div className="mb-9 flex items-center gap-5 text-xs uppercase tracking-[0.35em] text-[var(--secondary)]">

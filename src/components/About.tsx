@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-        <section className="border-t-1 border-[var(--primary)] relative grid min-h-[80vh] overflow-hidden bg-[#080808] text-white lg:grid-cols-[1.1fr_0.85fr]" aria-label="Nossa Marca">
+        <section id="about" className="border-t-1 border-[var(--primary)] relative grid min-h-[80vh] overflow-hidden bg-[#080808] text-white lg:grid-cols-[1.1fr_0.85fr]" aria-label="Nossa Marca">
             <div className="relative min-h-[40vh] overflow-hidden lg:min-h-[80vh]">
                 <img
                     src="https://placehold.co/1200x1400/171717/FFFFFF?"

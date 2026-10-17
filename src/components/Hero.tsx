@@ -65,8 +65,9 @@ export default function Hero() {
   return (
     <section
       ref={heroRef}
+      id="home"
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/front-view-barber-shop.png')" }}
+      style={{ backgroundImage: "url('/images/front-view-barber-shop.png')", backgroundPosition: "center 30%"}}
       aria-label="Interior da barbearia"
     >
       <div ref={borderRef} className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-[5px]" aria-hidden="true" />
@@ -93,7 +94,7 @@ export default function Hero() {
           </div>
         </div>
         <a
-          href="/contact"
+          href="#contact"
           className="mt-8 bg-[var(--secondary)] px-4 py-4 font-bold tracking-[0.25em] text-white transition-colors duration-300 hover:bg-yellow-600"
         >
           AGENDAR UM HORÁRIO
