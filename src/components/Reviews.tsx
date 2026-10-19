@@ -107,7 +107,6 @@ export default function Reviews() {
 
     return (
         <section id="reviews" className="relative overflow-hidden bg-[#03130e] px-6 py-24 text-white md:px-12 lg:px-16" aria-labelledby="reviews-title">
-            <div className="pointer-events-none absolute -right-24 top-10 select-none font-title text-[28rem] leading-none text-[#c89545]/[0.06]">B</div>
             <div className="relative mx-auto max-w-6xl">
                 <div className="mx-auto max-w-3xl text-center">
                     <div className="mb-5 flex items-center justify-center gap-4 text-[10px] font-semibold uppercase tracking-[0.45em] text-[var(--secondary)]">
